@@ -1,0 +1,129 @@
+.create-user-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.create-user-container1 {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  align-items: flex-start;
+  border-color: #00a0dd;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50px;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.create-user-container2 {
+  flex: 0 0 auto;
+  width: 718px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.create-user-textinput {
+  width: 463px;
+  align-self: center;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 50px;
+  margin-bottom: 0.5rem;
+}
+.create-user-select {
+  align-self: center;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.create-user-container3 {
+  flex: 0 0 auto;
+  width: 427px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.create-user-button {
+  align-self: center;
+  margin-right: 1.5rem;
+}
+.create-user-button1 {
+  align-self: center;
+  margin-right: 2rem;
+}
+
+@media(max-width: 991px) {
+  .create-user-container2 {
+    width: 568px;
+    align-self: center;
+    padding-left: 0px;
+  }
+  .create-user-textinput {
+    width: 382px;
+    border-color: #00a0dd;
+  }
+  .create-user-container3 {
+    width: 382px;
+    align-self: center;
+    justify-content: flex-end;
+  }
+  .create-user-button {
+    margin-right: 1.5rem;
+  }
+  .create-user-button1 {
+    margin-right: 3rem;
+  }
+}
+@media(max-width: 767px) {
+  .create-user-container2 {
+    width: 444px;
+    padding-left: 0px;
+  }
+  .create-user-container3 {
+    width: 277px;
+  }
+}
+@media(max-width: 479px) {
+  .create-user-container1 {
+    height: 130px;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+  }
+  .create-user-container2 {
+    width: 419px;
+    height: 50%;
+  }
+  .create-user-textinput {
+    margin: 0.5rem;
+  }
+  .create-user-select {
+    margin: 0.5rem;
+  }
+  .create-user-container3 {
+    width: 403px;
+    height: 45px;
+    justify-content: center;
+  }
+  .create-user-button {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .create-user-button1 {
+    margin: 0.5rem;
+    align-self: center;
+    margin-top: 0rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
